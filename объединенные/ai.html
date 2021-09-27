@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ai/lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="ai/style.css">
+</head>
+<body bgcolor= #E0FFFF>
+<a href="Home.html" class="gradient-button">На главную</a>
+<div>
+ <p><a href="ai.html" id="next">Новая партия</a></p>
+</div>
+<div id="board" class="board" style="width: 500px"></div>
+<div class="info">
+    Сложность:
+    <select id="search-depth">
+        <option value="1" selected>1 уровень</option>
+        <option value="2">2 уровень</option>
+        <option value="3">3 уровень</option>
+        <option value="4">4 уровень</option>
+        <option value="5">5 уровень</option>
+    </select>
+
+  
+    <br>
+    <div id="move-history" class="move-history">
+    </div>
+</div>
+
+<script src="ai/lib/jquery/jquery-3.2.1.min.js"></script>
+<script src="ai/lib/chessboardjs/js/chess.js"></script>
+<script src="ai/lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+<script src="ai/script.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.board {
+    width: 550px;
+    margin: 2% auto;
+}
+
+.info {
+    width: 500px;
+    margin: auto;
+
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+	
+}
+.gradient-button {
+	
+  color: black;
+  text-align: center;
+  padding: 22px;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 25px;
+  border-radius: 25px;
+  font-family: Comic Sans MS;
+   
+ 
+  background-color: LightSkyBlue;
+  color: black;
+}
+#next {
+	 color: black;
+  text-align: center;
+ text-align: center;
+   padding: 22px;
+   position: relative;
+    top: 60px;
+	width: 100px;
+	height: 100px;
+
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 25px;
+  border-radius: 25px;
+  font-family: Comic Sans MS;
+   
+ 
+  background-color: #00FFFF;
+  color: black;
+	
+}
